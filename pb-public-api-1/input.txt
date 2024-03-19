@@ -1,0 +1,13 @@
+Here is the link of some public API:
+
+https://api.publicapis.org/entries
+
+Write a program that solves the following tasks:
+
+- The API should return two fields, "count" and "entries". Confirm that the
+  number returned by "count" is equal to the number of objects in "entries".
+- Confirm that every object returned in the "entries" array has the same keys.
+- Find all different categories, and how often each one appears in the list.
+
+When you are asked to "confirm" a condition, you should write some code that
+fails or throws an exception if that condition is not met.
