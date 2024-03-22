@@ -1,0 +1,15 @@
+/home/ozoniuss/D/mystuff/personal-projects/languages/pb-public-api-1/dotnet/bin/Debug/net8.0/dotnet
+/home/ozoniuss/D/mystuff/personal-projects/languages/pb-public-api-1/dotnet/bin/Debug/net8.0/dotnet.deps.json
+/home/ozoniuss/D/mystuff/personal-projects/languages/pb-public-api-1/dotnet/bin/Debug/net8.0/dotnet.runtimeconfig.json
+/home/ozoniuss/D/mystuff/personal-projects/languages/pb-public-api-1/dotnet/bin/Debug/net8.0/dotnet.dll
+/home/ozoniuss/D/mystuff/personal-projects/languages/pb-public-api-1/dotnet/bin/Debug/net8.0/dotnet.pdb
+/home/ozoniuss/D/mystuff/personal-projects/languages/pb-public-api-1/dotnet/obj/Debug/net8.0/dotnet.GeneratedMSBuildEditorConfig.editorconfig
+/home/ozoniuss/D/mystuff/personal-projects/languages/pb-public-api-1/dotnet/obj/Debug/net8.0/dotnet.AssemblyInfoInputs.cache
+/home/ozoniuss/D/mystuff/personal-projects/languages/pb-public-api-1/dotnet/obj/Debug/net8.0/dotnet.AssemblyInfo.cs
+/home/ozoniuss/D/mystuff/personal-projects/languages/pb-public-api-1/dotnet/obj/Debug/net8.0/dotnet.csproj.CoreCompileInputs.cache
+/home/ozoniuss/D/mystuff/personal-projects/languages/pb-public-api-1/dotnet/obj/Debug/net8.0/dotnet.sourcelink.json
+/home/ozoniuss/D/mystuff/personal-projects/languages/pb-public-api-1/dotnet/obj/Debug/net8.0/dotnet.dll
+/home/ozoniuss/D/mystuff/personal-projects/languages/pb-public-api-1/dotnet/obj/Debug/net8.0/refint/dotnet.dll
+/home/ozoniuss/D/mystuff/personal-projects/languages/pb-public-api-1/dotnet/obj/Debug/net8.0/dotnet.pdb
+/home/ozoniuss/D/mystuff/personal-projects/languages/pb-public-api-1/dotnet/obj/Debug/net8.0/dotnet.genruntimeconfig.cache
+/home/ozoniuss/D/mystuff/personal-projects/languages/pb-public-api-1/dotnet/obj/Debug/net8.0/ref/dotnet.dll
