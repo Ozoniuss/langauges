@@ -1,0 +1,56 @@
+This task is about simulating an index in memory. Its aim is to help in showing
+how database indexes works, and also help in understanding when to use different
+types of indexes.
+
+This problem is focused only on read performance. It does not take into account
+write performance, which is also a significant factor when deciding the best
+index for your tables. Check the attached resources for more information.
+
+Consider we're storing data about laptops. We have the following data:
+
+Id:      int
+Brand:   string
+Details: string
+Price:   float
+
+You can download a file with generated laptop data:
+
+curl <tbd>
+
+Your tasks are the following:
+
+- Simulate a database with no indexes, by storing the data in-memory using a
+plain array;
+- Simulate a non-clustered index on the price data, by storing the data in a map
+where the price is the map's key;
+- Simulate a clustered index by storing the data in an array that is ordered
+ascending by laptop price (hint: the binary search algorithm will be useful
+here).
+
+For each task, you should do the following measurements:
+
++- Measure the time it takes to retrieve the laptop with cost "5432" (single-
++  row random read performance).
++- Measure the time it takes to retrieve the first 1000 laptops with price
++  over 5000 (multi-row ordered read performance).
+
+The first measurement mimics the case when you're searching for a specific
+laptop (you remembered its price). The second scenario mimics browsing the
+laptop's website, where you want to display all laptops based on your budget.
+
+You can reference the following material for more details about index
+implementation (in SQL server):
+
+https://www.sqlshack.com/sql-server-table-structure-overview/
+https://www.sqlshack.com/sql-server-index-structure-and-concepts/
+https://www.sqlshack.com/designing-effective-sql-server-non-clustered-indexes/
+https://www.sqlshack.com/designing-effective-sql-server-clustered-indexes/
+
+For simplicity, you may assume that prices are distinct when designing the price
+index. The index implementation is complicated as-is on a single field, and this
+avoids having to deal with duplicate index values, or having to use multiple 
+index fields. Do mind however that composite indexes are often used in practice,
+the id usually being a tie-breaker.
+
+Also note that the laptop's prices have been purposefully distributed evenly
+in the interval (1000,9000).
